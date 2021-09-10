@@ -6,4 +6,4 @@ export const DEFAULT_PATHS = {
 }
 
 /* cspell: disable-next-line */
-export const ADMIN_JS_TMP_DIR = '/tmp/adminjs'
+export const ADMIN_JS_TMP_DIR = process.env.ADMIN_TMP_DIR ? process.env.ADMIN_TMP_DIR + '/adminjs' : 'adminjs'

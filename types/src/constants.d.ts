@@ -4,4 +4,4 @@ export declare const DEFAULT_PATHS: {
     logoutPath: string;
     loginPath: string;
 };
-export declare const ADMIN_JS_TMP_DIR = "/tmp/adminjs";
+export declare const ADMIN_JS_TMP_DIR: string;
